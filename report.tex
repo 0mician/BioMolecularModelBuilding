@@ -11,6 +11,7 @@
 \usepackage{marvosym}
 \usepackage{wasysym}
 \usepackage{latexsym}
+\usepackage{hyperref}
 \usepackage{amssymb}
 \usepackage{hyperref}
 \tolerance=1000
@@ -95,11 +96,51 @@ AUTHOR    K.C.QIAN,L.WANG,E.R.HICKEY,J.STUDTS,K.BARRINGER,C.PENG,
 AUTHOR   2 A.KRONKAITIS,J.LI,A.WHITE,S.MISCHE,B.FARMER         
 \end{verbatim}
  
-\section{Question 4}
+\section{Question 5}
+We found 2 proteins of interest: 1JKK and 3F5U. Both have reasonable
+resolutions and R-Free values are similar. 1JKK boasts a 'up to 1.5 A'
+resolution of the catalytic domain. However, after visualizing the
+B-Factors using pymol, we decided to go with 3F5U.
+
 \subsection{Part a}
+The AUTHOR section from the PDB file reveals the same list of names as
+the list of the article's authors:
+
+\begin{verbatim}
+AUTHOR    L.K.MCNAMARA,D.M.WATTERSON,J.S.BRUNZELLE
+\end{verbatim}
+
 \subsection{Part b}
+\includegraphics[width=15cm]{./Figures/5b.png}
+
 \subsection{Part c}
+
+Overall, this structure has low B-factors. There is however a loop
+region, located around amino acids 291-294, which displays higher
+B-Factors (around 100). The reason for this seems to be lying in the
+fact that this loop is part of a flexible regions at the C-Terminus,
+which is not captured by the X-Ray crystalography.
+
+\subsection{Part b}
+\includegraphics[width=15cm]{./Figures/5c.png}
+
 \subsection{Part d}
+The domains present in DPAK1-Human
+\url{http://www.uniprot.org/uniprot/P53355} are:
+
+\begin{itemize}
+\item Kinase whose function is to catalize the transfer of phosphate
+  groups to specific substrates.
+\item Ankyrin domains (multiple found) mediate protein-protein
+  interactions.
+  \url{https://en.wikipedia.org/wiki/Ankyrin_repeat}
+\item Roc domain, which is a GTPase domain. GTP binding to the ROC
+  domain activates kinase activity.
+  \url{http://www.copewithcytokines.de/cope.cgi?key=ROC%20domain} 
+\item The death domain (DD) is a protein interaction module composed
+  of a bundle of six alpha-helices.
+  \url{https://en.wikipedia.org/wiki/Death_domain}
+\end{itemize}
 \subsection{Part e}
 \bibliographystyle{plain}
 \bibliography{bib-db}
