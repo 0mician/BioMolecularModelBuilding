@@ -16,7 +16,7 @@
 \tolerance=1000
 \usepackage[left=2.35cm, right=3.35cm, top=3.35cm, bottom=3.35cm]{geometry}
 \usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
+\usepackage[greek,english]{babel}
 \usepackage{graphicx}
 \usepackage{titlesec}
 \usepackage{tocbibind}
@@ -38,7 +38,7 @@
 \includegraphics[width=15cm]{./Figures/1a.jpg}
 
 \subsection{Part b}
-\includegraphics[width=15cm]{./Figures/1b.pdf}
+\includegraphics[width=12cm]{./Figures/1b.png}
 
 \section{Question 2 - Kinase active/inactive forms}
 \includegraphics[width=15cm]{./Figures/2a.png}
@@ -49,7 +49,7 @@ or active) to the other \cite{ConformationalPlasticityKinases}.
 
 \includegraphics[width=15cm]{./Figures/2b.png}
 
-\section{Question 3 - }
+\section{Question 3}
 
 \begin{verbatim}
 > table(years)
@@ -59,7 +59,48 @@ years
 > barplot(table(years))
 \end{verbatim}
 
-\includegraphics[width=15cm]{./Figures/pdb_kinases_growth.png}
+\includegraphics[width=12cm]{./Figures/pdb_kinases_growth.png}
+
+\section{Question 4}
+\subsection{Part a}
+
+The molecule bound is Phosphoaminophosphonic Acid-Adenylate Ester, or
+ANP. Along with 2 Magnesium Ions.
+
+\subsection{Part b}
+ANP is an analog of ATP that cannot be hydrolized by the
+kinase. Therefore it stays bound to the active site of the kinase and
+allows for the crystal structure of the molecule to be established.
+
+\subsection{Part c}
+
+\includegraphics[width=15cm]{./Figures/4c.png}
+
+As shown in the figure, a salt bridge is formed between Glu89 and
+Lys67.  Lys67 forms a salt bridge directly with the $\alpha$-phosphate
+oxygen of the ANP molecule. Asp186 forms H-Bond with the Lys67 and
+also coordinates the Magnesium Ion, that in turns coordinates the
+$\beta$-phosphate oxygen of the ANP molecule. Asn172, in collaboration
+with Asp186 coordinates the second Magnesium Ion which interacts with
+the $\alpha$ and $\gamma$-phosphate oxygens of the ANP molecule
+\cite{CSPim1Kinase}.
+
+\subsection{Part d}
+
+The AUTHOR section from the PDB file reveals the same list of names as
+the list of the article's authors:
+
+\begin{verbatim}
+AUTHOR    K.C.QIAN,L.WANG,E.R.HICKEY,J.STUDTS,K.BARRINGER,C.PENG,               
+AUTHOR   2 A.KRONKAITIS,J.LI,A.WHITE,S.MISCHE,B.FARMER         
+\end{verbatim}
+ 
+\section{Question 4}
+\subsection{Part a}
+\subsection{Part b}
+\subsection{Part c}
+\subsection{Part d}
+\subsection{Part e}
 \bibliographystyle{plain}
 \bibliography{bib-db}
 \end{document}
