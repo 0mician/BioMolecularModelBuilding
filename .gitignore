@@ -5,3 +5,16 @@ report.aux
 report.out
 report.toc
 title.aux
+auto-save-list
+custom.el
+url/
+.org-id-locations
+\#*
+org-mode-config.el
+*~
+.#*
+\#*\#
+*.log
+.DS_Store
+org-clock-save.el
+emacs-config.el
