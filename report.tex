@@ -21,27 +21,46 @@
 \usepackage{graphicx}
 \usepackage{titlesec}
 \usepackage{tocbibind}
-\providecommand{\alert}[1]{\textbf{#1}}
 
 \begin{document}
 
-%\setlength{\parskip}{0pt}%
-%\setlength{\parindent}{0pt}%
-\renewcommand{\thesubsubsection}{\alph{subsubsection}.)}
 \include{title}
 \setcounter{tocdepth}{3}
 \tableofcontents
 \clearpage
 
 
-\section{Question 1 - Kinases}
+\section{Question 1}
 \subsection{Part a}
+
+Chain A is the kinase domain (CDK2), N-terminal is colored in blue and
+C-terminal is colored in green.  The regulatory domain (cyclin-A2) is
+chain B, colored in yellow.
 \includegraphics[width=15cm]{./Figures/1a.jpg}
 
 \subsection{Part b}
+This is the list of residue sequences associated with their
+corresponding secondary structures::
+\begin{description}
+\item[1-4] Loop
+\item[5-11] Beta sheet
+\item[12-16] Loop
+\item[17-23] Beta sheet
+\item[24-28] Loop
+\item[29-36] Beta sheet
+\item[37-45] Loop
+\item[46-57] Alpha helix
+\item[58-65] Loop
+\item[66-71] Beta sheet
+\item[72-74] Loop
+\item[75-81] Beta sheet
+\item[82-84] Loop
+\end{description}
+And the topology diagram of the N-terminal domain:
+
 \includegraphics[width=12cm]{./Figures/1b.png}
 
-\section{Question 2 - Kinase active/inactive forms}
+\section{Question 2}
 \includegraphics[width=15cm]{./Figures/2a.png}
 
 The role of regulatory domains in the kinases are to induce
@@ -52,15 +71,36 @@ or active) to the other \cite{ConformationalPlasticityKinases}.
 
 \section{Question 3}
 
+We extracted the data from the protein database using the following query:
+
 \begin{verbatim}
-> table(years)
-years
-2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 
-  41   84   91  131  123  192  224  298  329  309  348  316  426  402  358  102 
-> barplot(table(years))
+Holdings : Molecule Type=ignore Experimental Method=X-RAY 
+
+and 
+
+DepositDateQuery: database_PDB_rev.date_original.comparator=between 
+database_PDB_rev.date_original.min=2000-01-01 database_PDB_rev.date_original.max=2015-05-13 
+database_PDB_rev.mod_type.comparator=< database_PDB_rev.mod_type.value=1 
+
+and 
+
+StructTitleQuery: struct.title.comparator=contains struct.title.value=Kinase
+\end{verbatim}
+
+We did export the results to a CSV file to further our axsnalysis using
+R and obtained the following summary table and associated graph:
+
+\begin{verbatim}
+> table(years) years 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009
+ 2010 2011 2012 2013 2014 2015 41 84 91 131 123 192 224 298 329 309
+ 348 316 426 402 358 102 > barplot(table(years))
 \end{verbatim}
 
 \includegraphics[width=12cm]{./Figures/pdb_kinases_growth.png}
+
+We think that the steady increase in the number of kinases being
+researched is linked to the fact that Kinases are involved in various
+pathways whose defects lead to diseases. 
 
 \section{Question 4}
 \subsection{Part a}
@@ -111,6 +151,12 @@ AUTHOR    L.K.MCNAMARA,D.M.WATTERSON,J.S.BRUNZELLE
 \end{verbatim}
 
 \subsection{Part b}
+Arg156 and Glu107 have zero occupany. Since the orientation of the
+residues in space could not be determined, the interaction of zero
+occupancy residue with neighbouring residues is unknown. This may in
+turn affect the protein model tertiary structure.  Gln223 has multiple
+alternative rotamer conformations.
+
 \includegraphics[width=15cm]{./Figures/5b.png}
 
 \subsection{Part c}
@@ -121,33 +167,32 @@ B-Factors (around 100). The reason for this seems to be lying in the
 fact that this loop is part of a flexible regions at the C-Terminus,
 which is not captured by the X-Ray crystalography.
 
-\subsection{Part b}
 \includegraphics[width=15cm]{./Figures/5c.png}
 
 \subsection{Part d}
-The domains present in DPAK1-Human
-\url{http://www.uniprot.org/uniprot/P53355} are:
+The domains present in DAPK1-Human
+\footnote{\url{http://www.uniprot.org/uniprot/P53355}} are:
 
 \begin{itemize}
 \item Kinase whose function is to catalize the transfer of phosphate
   groups to specific substrates.
 \item Ankyrin domains (multiple found) mediate protein-protein
   interactions.
-  \url{https://en.wikipedia.org/wiki/Ankyrin_repeat}
+  \footnote{\url{https://en.wikipedia.org/wiki/Ankyrin_repeat}}
 \item Roc domain, which is a GTPase domain. GTP binding to the ROC
   domain activates kinase activity.
-  \url{http://www.copewithcytokines.de/cope.cgi?key=ROC%20domain} 
+  \footnote{\url{http://www.copewithcytokines.de/cope.cgi?key=ROC\%20domain}} 
 \item The death domain (DD) is a protein interaction module composed
   of a bundle of six alpha-helices.
-  \url{https://en.wikipedia.org/wiki/Death_domain}
+  \footnote{\url{https://en.wikipedia.org/wiki/Death_domain}}
 \end{itemize}
 \subsection{Part e}
 
-The sequences provided are all related and display homology. Some of
-the organism in which the protein is found belong to varied kingdom
-such as Animal, Bacteria, Plants, which indicates that it must
-originates from an ancient gene that existed even before the split
-between Eukaryotes and Prokaryotes on the tree of life.
+The sequences provided are all homologous and display sequence
+similarity.Some of the organism in which the protein is found belong
+to varied kingdom such as Animal, Bacteria, Plants, which indicates
+that it must originates from an ancient gene that existed even before
+the split between Eukaryotes and Prokaryotes on the tree of life.
 
 To further our analysis, we used the guide tree created when we
 performed the multiple sequence alignment, along with the results of
@@ -167,7 +212,16 @@ example LRRK1) are better than the ones from another cluster (LRRK2 in
 our example). This makes sense when you think about the evolutionary
 distance between the 2 genes coding for these paralog genes.
 
-\includegraphics[width=18cm]{./Figures/5e.png}
+\includegraphics[width=17cm]{./Figures/5e.png}
+
+\section{Question 6}
+
+The essential features are indicated in the red frame on the cartoon
+below. They are all hydrogen bridges.
+
+\includegraphics[width=17cm]{./Figures/6.pdf}
+
+\section{Question 7}
 
 \bibliographystyle{plain}
 \bibliography{bib-db}
