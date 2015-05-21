@@ -1,0 +1,23 @@
+1(a) Chain A is the kinase domain (CDK2), N-terminal is colored in blue and C-terminal is colored in green.
+The regulatory domain (cyclin-A2) is chain B, colored in yellow.
+
+1(b)
+
+Residues: Secondary structure
+1-4 : Loop
+5-11: Beta sheet
+12-16: Loop
+17-23: Beta sheet
+24-28: Loop
+29-36: Beta sheet
+37-45: Loop
+46-57: Alpha helix
+58-65: Loop
+66-71: Beta sheet
+72-74: Loop
+75-81: Beta sheet
+82-84: Loop
+
+5(b) Arg156 and Glu107 have zero occupany. Since the orientation of the residues in space could not be determined, the interaction of zero occupancy residue with neighbouring residues is unknown. This may in turn affect the protein model tertiary structure.
+Gln223 has multiple alternative rotamer conformations.
+
