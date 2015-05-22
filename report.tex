@@ -14,8 +14,9 @@
 \usepackage{hyperref}
 \usepackage{amssymb}
 \usepackage{hyperref}
+\usepackage[bottom]{footmisc}
 \tolerance=1000
-\usepackage[left=2.35cm, right=3.35cm, top=3.35cm, bottom=3.35cm]{geometry}
+\usepackage[left=3.35cm, right=3.35cm, top=3.35cm, bottom=3.35cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[greek,english]{babel}
 \usepackage{graphicx}
@@ -51,6 +52,8 @@ chain B, colored in yellow.
 This is the list of residue sequences associated with their
 corresponding secondary structures::
 \begin{description}
+\itemsep0em 
+\item[N-Terminus]
 \item[1-4] Loop
 \item[5-11] Beta sheet
 \item[12-16] Loop
@@ -64,17 +67,23 @@ corresponding secondary structures::
 \item[72-74] Loop
 \item[75-81] Beta sheet
 \item[82-84] Loop
+\item[C-Terminus]
 \end{description}
+
+\clearpage
 And the topology diagram of the N-terminal domain:
 
 \includegraphics[width=12cm]{./Figures/1b.png}
 
 \section*{Question 2}
-\addcontentsline{toc}{section}{Question 2}
-The role of regulatory domains in the kinases are to induce
-conformational changes that switch the kinase from one form (inactive
-or active) to the other \cite{ConformationalPlasticityKinases}.In the
-cartoon below, the red structure is the 2SRC, the green one is 3LCK.
+\addcontentsline{toc}{section}{Question 2} The role of regulatory
+domains in the kinases are to induce conformational changes that
+switch the kinase from one form (inactive or active) to the other
+\cite{ConformationalPlasticityKinases}.In the cartoon below, the red
+structure is the 2SRC, the green one is 3LCK. A pfam analysis of 2SRC
+reveals that the SH2 domain is located around positions TRP-148 to
+TYR-230. This include the amino acids indicated on the second cartoon
+figure below, namely ARG-155 and THR-179.
 
 \includegraphics[width=15cm]{./Figures/2a.png}
 
@@ -208,8 +217,10 @@ The domains present in DAPK1-Human
   domain activates kinase activity.
   \footnote{\url{http://www.copewithcytokines.de/cope.cgi?key=ROC\%20domain}} 
 \item The death domain (DD) is a protein interaction module composed
-  of a bundle of six alpha-helices.
-  \footnote{\url{https://en.wikipedia.org/wiki/Death_domain}}
+  of a bundle of six alpha-helices. It is a
+  Calcium/calmodulin-dependent serine/threonine kinase which acts as a
+  positive regulator of apoptosis.
+  \footnote{\url{http://www.deathdomain.org/proteins/search?term=DAPK1}}
 \end{itemize}
 \subsection*{Part e}
 \addcontentsline{toc}{subsection}{Part e}
@@ -251,6 +262,13 @@ below. They are all hydrogen bridges.
 \addcontentsline{toc}{section}{Question 7}
 \subsection*{Part a}
 \addcontentsline{toc}{subsection}{Part a}
+
+The following figure reports the selected model. We generated 5 of
+them and selected the one which displayed the best properties. We paid
+especially attention to the variable \emph{Number of residues in
+  outlier region} and also to the \emph{GA341} and \emph{DOPE} scores
+found in the \emph{model-single.log} report from the Modeller
+software.
 
 \includegraphics[width=16cm]{./Figures/7a-ramachandran.pdf}
 \subsection*{Part b}
