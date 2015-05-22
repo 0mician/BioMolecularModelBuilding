@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.19)  21 MAY 2015 22:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.19)  22 MAY 2015 09:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1040,34 +1040,34 @@ Package tocbibind Note: Using section or other style headings.
 ) (./report.aux (./title.aux))
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 25.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 30.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1098,7 +1098,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1108,9 +1108,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count115
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
 
 (./report.out) (./report.out)
 \@outlinefile=\write3
@@ -1153,7 +1153,7 @@ LaTeX Info: Redefining \nameref on input line 25.
 
 \openout2 = `title.aux'.
 
-(./title.tex <Figures/kuleuven_logo.pdf, id=79, 159.59625pt x 57.21375pt>
+(./title.tex <Figures/kuleuven_logo.pdf, id=75, 159.59625pt x 57.21375pt>
 File: Figures/kuleuven_logo.pdf Graphic file (type pdf)
 
 <use Figures/kuleuven_logo.pdf>
@@ -1179,7 +1179,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Figures/KUL.jpg, id=80, 853.5087pt x 853.5087pt>
+<Figures/KUL.jpg, id=76, 853.5087pt x 853.5087pt>
 File: Figures/KUL.jpg Graphic file (type jpg)
  <use Figures/KUL.jpg>
 Package pdftex.def Info: Figures/KUL.jpg used on input line 33.
@@ -1197,127 +1197,284 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 \clearpage
-                [1
+l.36 \newpage
+              [1
 
-] <./Figures/1a.jpg, id=117, 1209.51875pt x 537.00626pt>
+]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 41.
+
+<./Figures/1a.jpg, id=116, 1209.51875pt x 537.00626pt>
 File: ./Figures/1a.jpg Graphic file (type jpg)
-
-<use ./Figures/1a.jpg>
-Package pdftex.def Info: ./Figures/1a.jpg used on input line 39.
+ <use ./Figures/1a.jpg>
+Package pdftex.def Info: ./Figures/1a.jpg used on input line 46.
 (pdftex.def)             Requested size: 426.79134pt x 189.48729pt.
- <./Figures/1b.png, id=118, 1121.18875pt x 633.36626pt>
+
+<./Figures/1b.png, id=117, 1121.18875pt x 633.36626pt>
 File: ./Figures/1b.png Graphic file (type png)
-
-<use ./Figures/1b.png>
-Package pdftex.def Info: ./Figures/1b.png used on input line 61.
+ <use ./Figures/1b.png>
+Package pdftex.def Info: ./Figures/1b.png used on input line 70.
 (pdftex.def)             Requested size: 341.43306pt x 192.88165pt.
- [2
 
- <./Figures/1a.jpg>]
-<./Figures/2a.png, id=124, 1209.51875pt x 505.89pt>
+[2 <./Figures/1a.jpg>] <./Figures/2a.png, id=124, 1209.51875pt x 505.89pt>
 File: ./Figures/2a.png Graphic file (type png)
- <use ./Figures/2a.png>
-Package pdftex.def Info: ./Figures/2a.png used on input line 64.
+
+<use ./Figures/2a.png>
+Package pdftex.def Info: ./Figures/2a.png used on input line 79.
 (pdftex.def)             Requested size: 426.79134pt x 178.50764pt.
 
-<./Figures/2b.png, id=127, 1209.51875pt x 505.89pt>
+Overfull \hbox (8.4645pt too wide) in paragraph at lines 79--80
+[][] 
+ []
+
+<./Figures/2b.png, id=126, 1209.51875pt x 505.89pt>
 File: ./Figures/2b.png Graphic file (type png)
  <use ./Figures/2b.png>
-Package pdftex.def Info: ./Figures/2b.png used on input line 70.
+Package pdftex.def Info: ./Figures/2b.png used on input line 81.
 (pdftex.def)             Requested size: 426.79134pt x 178.50764pt.
 
-Overfull \hbox (8.4645pt too wide) in paragraph at lines 70--71
+Overfull \hbox (8.4645pt too wide) in paragraph at lines 81--82
 [][] 
  []
 
 [3 <./Figures/1b.png> <./Figures/2a.png> <./Figures/2b.png>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 76.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 87.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (79.58492pt too wide) in paragraph at lines 88--88
+Overfull \hbox (79.58492pt too wide) in paragraph at lines 99--99
 []\T1/cmtt/m/n/10.95 database_PDB_rev.date_original.min=2000-01-01 database_PDB
 _rev.date_original.max=2015-05-13[] 
  []
 
-<./Figures/pdb_kinases_growth.png, id=135, 691.58376pt x 563.10374pt>
+<./Figures/pdb_kinases_growth.png, id=134, 691.58376pt x 563.10374pt>
 File: ./Figures/pdb_kinases_growth.png Graphic file (type png)
 
 <use ./Figures/pdb_kinases_growth.png>
-Package pdftex.def Info: ./Figures/pdb_kinases_growth.png used on input line 99
-.
+Package pdftex.def Info: ./Figures/pdb_kinases_growth.png used on input line 11
+0.
 (pdftex.def)             Requested size: 341.43306pt x 278.00258pt.
- [4 <./Figures/pdb_kinases_growth.png>]
-<./Figures/4c.png, id=142, 1209.51875pt x 591.20876pt>
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 119.
+
+[4 <./Figures/pdb_kinases_growth.png>]
+<./Figures/4c.png, id=141, 1209.51875pt x 591.20876pt>
 File: ./Figures/4c.png Graphic file (type png)
  <use ./Figures/4c.png>
-Package pdftex.def Info: ./Figures/4c.png used on input line 118.
+Package pdftex.def Info: ./Figures/4c.png used on input line 134.
 (pdftex.def)             Requested size: 426.79134pt x 208.6131pt.
 
-[5 <./Figures/4c.png>] <./Figures/5b.png, id=151, 1209.51875pt x 640.3925pt>
-File: ./Figures/5b.png Graphic file (type png)
+[5 <./Figures/4c.png>]
 
-<use ./Figures/5b.png>
-Package pdftex.def Info: ./Figures/5b.png used on input line 160.
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 164.
+
+<./Figures/5b.png, id=150, 1209.51875pt x 640.3925pt>
+File: ./Figures/5b.png Graphic file (type png)
+ <use ./Figures/5b.png>
+Package pdftex.def Info: ./Figures/5b.png used on input line 182.
 (pdftex.def)             Requested size: 426.79134pt x 225.96802pt.
 
-Overfull \hbox (8.4645pt too wide) in paragraph at lines 160--161
+Overfull \hbox (8.4645pt too wide) in paragraph at lines 182--183
 [][] 
  []
 
-<./Figures/5c.png, id=152, 1209.51875pt x 640.3925pt>
+<./Figures/5c.png, id=151, 1209.51875pt x 640.3925pt>
 File: ./Figures/5c.png Graphic file (type png)
  <use ./Figures/5c.png>
-Package pdftex.def Info: ./Figures/5c.png used on input line 170.
+Package pdftex.def Info: ./Figures/5c.png used on input line 193.
 (pdftex.def)             Requested size: 426.79134pt x 225.96802pt.
 
-Overfull \hbox (8.4645pt too wide) in paragraph at lines 170--171
+Overfull \hbox (8.4645pt too wide) in paragraph at lines 193--194
 [][] 
  []
 
 [6 <./Figures/5b.png>] [7 <./Figures/5c.png>]
-<./Figures/5e.png, id=181, 702.625pt x 790.955pt>
+<./Figures/5e.png, id=180, 702.625pt x 790.955pt>
 File: ./Figures/5e.png Graphic file (type png)
  <use ./Figures/5e.png>
-Package pdftex.def Info: ./Figures/5e.png used on input line 215.
+Package pdftex.def Info: ./Figures/5e.png used on input line 241.
 (pdftex.def)             Requested size: 483.69684pt x 544.51645pt.
 
-Overfull \hbox (65.37pt too wide) in paragraph at lines 215--216
+Overfull \hbox (65.37pt too wide) in paragraph at lines 241--242
 [][] 
  []
 
-<./Figures/6.pdf, id=182, 1027.84pt x 770.88pt> [8 <./Figures/5e.png>]
+<./Figures/6.pdf, id=181, 1027.84pt x 770.88pt> [8 <./Figures/5e.png>]
 File: ./Figures/6.pdf Graphic file (type pdf)
 
 <use ./Figures/6.pdf>
-Package pdftex.def Info: ./Figures/6.pdf used on input line 222.
+Package pdftex.def Info: ./Figures/6.pdf used on input line 248.
 (pdftex.def)             Requested size: 483.69684pt x 362.7724pt.
 
-Overfull \hbox (65.37pt too wide) in paragraph at lines 222--223
+Overfull \hbox (65.37pt too wide) in paragraph at lines 248--249
 [][] 
  []
 
-(./report.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
- [9 <./Figures/6.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 253.
+
+<./Figures/7a-ramachandran.pdf, id=186, 517.13202pt x 651.23299pt>
+File: ./Figures/7a-ramachandran.pdf Graphic file (type pdf)
+
+<use ./Figures/7a-ramachandran.pdf>
+Package pdftex.def Info: ./Figures/7a-ramachandran.pdf used on input line 255.
+(pdftex.def)             Requested size: 455.24408pt x 573.29547pt.
+
+Overfull \hbox (19.91724pt too wide) in paragraph at lines 255--256
+[] 
+ []
+
+[9 <./Figures/6.pdf>] <./Figures/7b.png, id=211, 638.385pt x 481.8pt>
+File: ./Figures/7b.png Graphic file (type png)
+
+<use ./Figures/7b.png>
+Package pdftex.def Info: ./Figures/7b.png used on input line 259.
+(pdftex.def)             Requested size: 284.52756pt x 214.73482pt.
+ [10 <./Figures/7a-ramachandran.pdf>]
+Overfull \hbox (11.68446pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut2      ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLV
+NPDQPRLTIPISQIAPDL 60[] 
+ []
+
+
+Overfull \hbox (11.68446pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut3      ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLV
+NPDQPRLTIPISQIAPDL 60[] 
+ []
+
+
+Overfull \hbox (11.68446pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_wt        ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLV
+NPDQPRLTIPISQIAPDL 60[] 
+ []
+
+
+Overfull \hbox (11.68446pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut1      ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLV
+NPDQPRLTIPISQIAPDL 60[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut2      ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGE
+EVAVKIFNKHTSLRLLRQ 120[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut3      ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGE
+EVAVKIFNKHTSLRLLRQ 120[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_wt        ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGE
+EVAVKIFNKHTSLRLLRQ 120[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut1      ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGE
+EVAVKIFNKHTSLRLLRQ 120[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut2      ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQ
+DKASLTRTLQHRIALHVA 180[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut3      ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQ
+DKASLTRTLQHRIALHVA 180[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_wt        ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQ
+DKASLTRTLQHRIALHVA 180[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut1      ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQ
+DKASLTRTLQHRIALHVA 180[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut2      DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAIIAKIADYSIA
+QYCCRMGIKTSEGTPGFR 240[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut3      DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAIIAKIADYGTA
+QYCCRMGIKTSEGTPGFR 240[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_wt        DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAIIAKIADYGIA
+QYCCRMGIKTSEGTPGFR 240[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut1      DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAITAKIADYGIA
+QYCCRMGIKTSEGTPGFR 240[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut2      APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPN
+EFDELEIQGKLPDPVKEY 300[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut3      APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPN
+EFDELEIQGKLPDPVKEY 300[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_wt        APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPN
+EFDELEIQGKLPDPVKEY 300[] 
+ []
+
+
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 299--299
+[]\T1/cmtt/m/n/10.95 lrrk2_mut1      APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPN
+EFDELEIQGKLPDPVKEY 300[] 
+ []
+
+[11 <./Figures/7b.png>] (./report.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
  (./report.aux (./title.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 3DDA42B15FED868E3D7C44644778C0EF;973.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
+(rerunfilecheck)             Checksum: 2F535F3B7E12E6DB8AC5852178F47C91;1097.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
  ) 
 Here is how much of TeX's memory you used:
- 9503 strings out of 493304
- 133871 string characters out of 6139871
- 213843 words of memory out of 5000000
- 12725 multiletter control sequences out of 15000+600000
+ 9484 strings out of 493304
+ 133676 string characters out of 6139871
+ 213857 words of memory out of 5000000
+ 12714 multiletter control sequences out of 15000+600000
  25238 words of font info for 71 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,8n,33p,461b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,33p,461b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/cm-sup
@@ -1331,10 +1488,10 @@ ype1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super
 share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on report.pdf (10 pages, 2464555 bytes).
+Output written on report.pdf (13 pages, 2691532 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 33 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 

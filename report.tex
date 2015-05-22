@@ -21,24 +21,33 @@
 \usepackage{graphicx}
 \usepackage{titlesec}
 \usepackage{tocbibind}
-
+\makeatletter
+\def\@seccntformat#1{%
+  \expandafter\ifx\csname c@#1\endcsname\c@section\else
+  \csname the#1\endcsname\quad
+  \fi}
+\makeatother
 \begin{document}
 
 \include{title}
 \setcounter{tocdepth}{3}
+
 \tableofcontents
-\clearpage
+\newpage
 
-
-\section{Question 1}
-\subsection{Part a}
+\section*{Question 1}
+\addcontentsline{toc}{section}{Question 1}
+\subsection*{Part a}
+\addcontentsline{toc}{subsection}{Part a}
 
 Chain A is the kinase domain (CDK2), N-terminal is colored in blue and
 C-terminal is colored in green.  The regulatory domain (cyclin-A2) is
 chain B, colored in yellow.
 \includegraphics[width=15cm]{./Figures/1a.jpg}
 
-\subsection{Part b}
+\subsection*{Part b}
+\addcontentsline{toc}{subsection}{Part a}
+
 This is the list of residue sequences associated with their
 corresponding secondary structures::
 \begin{description}
@@ -60,17 +69,19 @@ And the topology diagram of the N-terminal domain:
 
 \includegraphics[width=12cm]{./Figures/1b.png}
 
-\section{Question 2}
-\includegraphics[width=15cm]{./Figures/2a.png}
-
+\section*{Question 2}
+\addcontentsline{toc}{section}{Question 2}
 The role of regulatory domains in the kinases are to induce
 conformational changes that switch the kinase from one form (inactive
-or active) to the other \cite{ConformationalPlasticityKinases}.
+or active) to the other \cite{ConformationalPlasticityKinases}.In the
+cartoon below, the red structure is the 2SRC, the green one is 3LCK.
+
+\includegraphics[width=15cm]{./Figures/2a.png}
 
 \includegraphics[width=15cm]{./Figures/2b.png}
 
-\section{Question 3}
-
+\section*{Question 3}
+\addcontentsline{toc}{section}{Question 3}
 We extracted the data from the protein database using the following query:
 
 \begin{verbatim}
@@ -87,7 +98,7 @@ and
 StructTitleQuery: struct.title.comparator=contains struct.title.value=Kinase
 \end{verbatim}
 
-We did export the results to a CSV file to further our axsnalysis using
+We did export the results to a CSV file to further our analysis using
 R and obtained the following summary table and associated graph:
 
 \begin{verbatim}
@@ -102,18 +113,23 @@ We think that the steady increase in the number of kinases being
 researched is linked to the fact that Kinases are involved in various
 pathways whose defects lead to diseases. 
 
-\section{Question 4}
-\subsection{Part a}
+\section*{Question 4}
+\addcontentsline{toc}{section}{Question 4}
+\subsection*{Part a}
+\addcontentsline{toc}{subsection}{Part a}
 
 The molecule bound is Phosphoaminophosphonic Acid-Adenylate Ester, or
 ANP. Along with 2 Magnesium Ions.
 
-\subsection{Part b}
+\subsection*{Part b}
+\addcontentsline{toc}{subsection}{Part b}
+
 ANP is an analog of ATP that cannot be hydrolized by the
 kinase. Therefore it stays bound to the active site of the kinase and
 allows for the crystal structure of the molecule to be established.
 
-\subsection{Part c}
+\subsection*{Part c}
+\addcontentsline{toc}{subsection}{Part c}
 
 \includegraphics[width=15cm]{./Figures/4c.png}
 
@@ -126,7 +142,8 @@ with Asp186 coordinates the second Magnesium Ion which interacts with
 the $\alpha$ and $\gamma$-phosphate oxygens of the ANP molecule
 \cite{CSPim1Kinase}.
 
-\subsection{Part d}
+\subsection*{Part d}
+\addcontentsline{toc}{subsection}{Part d}
 
 The AUTHOR section from the PDB file reveals the same list of names as
 the list of the article's authors:
@@ -136,13 +153,16 @@ AUTHOR    K.C.QIAN,L.WANG,E.R.HICKEY,J.STUDTS,K.BARRINGER,C.PENG,
 AUTHOR   2 A.KRONKAITIS,J.LI,A.WHITE,S.MISCHE,B.FARMER         
 \end{verbatim}
  
-\section{Question 5}
+\section*{Question 5}
+\addcontentsline{toc}{section}{Question 5}
 We found 2 proteins of interest: 1JKK and 3F5U. Both have reasonable
 resolutions and R-Free values are similar. 1JKK boasts a 'up to 1.5 A'
 resolution of the catalytic domain. However, after visualizing the
 B-Factors using pymol, we decided to go with 3F5U.
 
-\subsection{Part a}
+\subsection*{Part a}
+\addcontentsline{toc}{subsection}{Part a}
+
 The AUTHOR section from the PDB file reveals the same list of names as
 the list of the article's authors:
 
@@ -150,7 +170,9 @@ the list of the article's authors:
 AUTHOR    L.K.MCNAMARA,D.M.WATTERSON,J.S.BRUNZELLE
 \end{verbatim}
 
-\subsection{Part b}
+\subsection*{Part b}
+\addcontentsline{toc}{subsection}{Part b}
+
 Arg156 and Glu107 have zero occupany. Since the orientation of the
 residues in space could not be determined, the interaction of zero
 occupancy residue with neighbouring residues is unknown. This may in
@@ -159,7 +181,8 @@ alternative rotamer conformations.
 
 \includegraphics[width=15cm]{./Figures/5b.png}
 
-\subsection{Part c}
+\subsection*{Part c}
+\addcontentsline{toc}{subsection}{Part c}
 
 Overall, this structure has low B-factors. There is however a loop
 region, located around amino acids 291-294, which displays higher
@@ -169,7 +192,9 @@ which is not captured by the X-Ray crystalography.
 
 \includegraphics[width=15cm]{./Figures/5c.png}
 
-\subsection{Part d}
+\subsection*{Part d}
+\addcontentsline{toc}{subsection}{Part d}
+
 The domains present in DAPK1-Human
 \footnote{\url{http://www.uniprot.org/uniprot/P53355}} are:
 
@@ -186,7 +211,8 @@ The domains present in DAPK1-Human
   of a bundle of six alpha-helices.
   \footnote{\url{https://en.wikipedia.org/wiki/Death_domain}}
 \end{itemize}
-\subsection{Part e}
+\subsection*{Part e}
+\addcontentsline{toc}{subsection}{Part e}
 
 The sequences provided are all homologous and display sequence
 similarity.Some of the organism in which the protein is found belong
@@ -214,15 +240,70 @@ distance between the 2 genes coding for these paralog genes.
 
 \includegraphics[width=17cm]{./Figures/5e.png}
 
-\section{Question 6}
-
+\section*{Question 6}
+\addcontentsline{toc}{section}{Question 6}
 The essential features are indicated in the red frame on the cartoon
 below. They are all hydrogen bridges.
 
 \includegraphics[width=17cm]{./Figures/6.pdf}
 
-\section{Question 7}
+\section*{Question 7}
+\addcontentsline{toc}{section}{Question 7}
+\subsection*{Part a}
+\addcontentsline{toc}{subsection}{Part a}
 
-\bibliographystyle{plain}
-\bibliography{bib-db}
+\includegraphics[width=16cm]{./Figures/7a-ramachandran.pdf}
+\subsection*{Part b}
+\addcontentsline{toc}{subsection}{Part b}
+
+\includegraphics[width=10cm]{./Figures/7b.png}
+
+\begin{verbatim}
+CLUSTAL 2.1 multiple sequence alignment
+
+lrrk2_mut2      ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLVNPDQPRLTIPISQIAPDL 60
+lrrk2_mut3      ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLVNPDQPRLTIPISQIAPDL 60
+lrrk2_wt        ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLVNPDQPRLTIPISQIAPDL 60
+lrrk2_mut1      ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLVNPDQPRLTIPISQIAPDL 60
+                ************************************************************
+
+lrrk2_mut2      ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGEEVAVKIFNKHTSLRLLRQ 120
+lrrk2_mut3      ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGEEVAVKIFNKHTSLRLLRQ 120
+lrrk2_wt        ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGEEVAVKIFNKHTSLRLLRQ 120
+lrrk2_mut1      ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGEEVAVKIFNKHTSLRLLRQ 120
+                ************************************************************
+
+lrrk2_mut2      ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQDKASLTRTLQHRIALHVA 180
+lrrk2_mut3      ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQDKASLTRTLQHRIALHVA 180
+lrrk2_wt        ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQDKASLTRTLQHRIALHVA 180
+lrrk2_mut1      ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQDKASLTRTLQHRIALHVA 180
+                ************************************************************
+
+lrrk2_mut2      DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAIIAKIADYSIAQYCCRMGIKTSEGTPGFR 240
+lrrk2_mut3      DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAIIAKIADYGTAQYCCRMGIKTSEGTPGFR 240
+lrrk2_wt        DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAIIAKIADYGIAQYCCRMGIKTSEGTPGFR 240
+lrrk2_mut1      DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAITAKIADYGIAQYCCRMGIKTSEGTPGFR 240
+                ******************************** ******. *******************
+
+lrrk2_mut2      APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPNEFDELEIQGKLPDPVKEY 300
+lrrk2_mut3      APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPNEFDELEIQGKLPDPVKEY 300
+lrrk2_wt        APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPNEFDELEIQGKLPDPVKEY 300
+lrrk2_mut1      APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPNEFDELEIQGKLPDPVKEY 300
+                ************************************************************
+
+lrrk2_mut2      GCAPWPMVEKLIKQCLKENPQERPTSAQVFDILNSAELVCLTRRILLPKNV 351
+lrrk2_mut3      GCAPWPMVEKLIKQCLKENPQERPTSAQVFDILNSAELVCLTRRILLPKNV 351
+lrrk2_wt        GCAPWPMVEKLIKQCLKENPQERPTSAQVFDILNSAELVCLTRRILLPKNV 351
+lrrk2_mut1      GCAPWPMVEKLIKQCLKENPQERPTSAQVFDILNSAELVCLTRRILLPKNV 351
+                ***************************************************
+\end{verbatim}
+\subsection*{Part c}
+The multiple sequence alignment below reveals mutations in the Amino
+Acids at position 212, 219, and 220, also indicated in the cartoon as
+spheres. These mutations convert hydrophobic amino acids (Iso, Gly) to
+polar amino acids (Ser, Thr) who are prone to establish H-bonds,
+making the transition to the active or inactive form of the molecule
+more difficult.by reducing the flexibility of the region.
+
+\bibliographystyle{plain} \bibliography{bib-db}
 \end{document}
