@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.19)  22 MAY 2015 09:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.19)  22 MAY 2015 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1139,14 +1139,14 @@ LaTeX Info: Redefining \nameref on input line 31.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(95.3169pt, 406.87408pt, 95.3169pt)
+* h-part:(L,W,R)=(66.86414pt, 435.32684pt, 95.3169pt)
 * v-part:(T,H,B)=(95.3169pt, 654.41306pt, 95.3169pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=406.87408pt
+* \textwidth=435.32684pt
 * \textheight=654.41306pt
-* \oddsidemargin=23.0469pt
-* \evensidemargin=23.0469pt
+* \oddsidemargin=-5.40585pt
+* \evensidemargin=-5.40585pt
 * \topmargin=-13.9531pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -1225,322 +1225,269 @@ File: ./Figures/1a.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Figures/1a.jpg used on input line 47.
 (pdftex.def)             Requested size: 426.79134pt x 189.48729pt.
 
-Overfull \hbox (19.91725pt too wide) in paragraph at lines 44--48
-[] 
- []
-
-[2 <./Figures/1a.jpg>] <./Figures/1b.png, id=122, 1121.18875pt x 633.36626pt>
+<./Figures/1b.png, id=117, 1121.18875pt x 633.36626pt>
 File: ./Figures/1b.png Graphic file (type png)
+ <use ./Figures/1b.png>
+Package pdftex.def Info: ./Figures/1b.png used on input line 68.
+(pdftex.def)             Requested size: 284.52756pt x 160.72827pt.
 
-<use ./Figures/1b.png>
-Package pdftex.def Info: ./Figures/1b.png used on input line 76.
-(pdftex.def)             Requested size: 341.43306pt x 192.88165pt.
- <./Figures/2a.png, id=124, 1209.51875pt x 505.89pt>
+[2 <./Figures/1a.jpg> <./Figures/1b.png>]
+<./Figures/2a.png, id=124, 1209.51875pt x 505.89pt>
 File: ./Figures/2a.png Graphic file (type png)
-
-<use ./Figures/2a.png>
-Package pdftex.def Info: ./Figures/2a.png used on input line 88.
+ <use ./Figures/2a.png>
+Package pdftex.def Info: ./Figures/2a.png used on input line 83.
 (pdftex.def)             Requested size: 426.79134pt x 178.50764pt.
 
-Overfull \hbox (36.91725pt too wide) in paragraph at lines 88--89
+Overfull \hbox (8.4645pt too wide) in paragraph at lines 83--84
 [][] 
  []
 
 <./Figures/2b.png, id=126, 1209.51875pt x 505.89pt>
 File: ./Figures/2b.png Graphic file (type png)
  <use ./Figures/2b.png>
-Package pdftex.def Info: ./Figures/2b.png used on input line 90.
+Package pdftex.def Info: ./Figures/2b.png used on input line 85.
 (pdftex.def)             Requested size: 426.79134pt x 178.50764pt.
 
-Overfull \hbox (36.91725pt too wide) in paragraph at lines 90--91
+Overfull \hbox (8.4645pt too wide) in paragraph at lines 85--86
 [][] 
  []
 
-[3
-
- <./Figures/1b.png> <./Figures/2a.png>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 96.
-
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 91.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (108.03767pt too wide) in paragraph at lines 108--108
+Overfull \hbox (79.58492pt too wide) in paragraph at lines 103--103
 []\T1/cmtt/m/n/10.95 database_PDB_rev.date_original.min=2000-01-01 database_PDB
 _rev.date_original.max=2015-05-13[] 
  []
 
-
-Overfull \hbox (0.52863pt too wide) in paragraph at lines 108--108
-[]\T1/cmtt/m/n/10.95 database_PDB_rev.mod_type.comparator=< database_PDB_rev.mo
-d_type.value=1[] 
- []
-
-
-Overfull \hbox (23.16211pt too wide) in paragraph at lines 108--108
-[]\T1/cmtt/m/n/10.95 StructTitleQuery: struct.title.comparator=contains struct.
-title.value=Kinase[] 
- []
-
-<./Figures/pdb_kinases_growth.png, id=133, 691.58376pt x 563.10374pt>
+[3 <./Figures/2a.png> <./Figures/2b.png>]
+<./Figures/pdb_kinases_growth.png, id=135, 691.58376pt x 563.10374pt>
 File: ./Figures/pdb_kinases_growth.png Graphic file (type png)
 
 <use ./Figures/pdb_kinases_growth.png>
 Package pdftex.def Info: ./Figures/pdb_kinases_growth.png used on input line 11
-9.
+4.
 (pdftex.def)             Requested size: 341.43306pt x 278.00258pt.
- [4 <./Figures/2b.png>]
+
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 128.
+(hyperref)                be the same. Added a new anchor on input line 123.
 
-<./Figures/4c.png, id=140, 1209.51875pt x 591.20876pt>
+<./Figures/4c.png, id=136, 1209.51875pt x 591.20876pt>
 File: ./Figures/4c.png Graphic file (type png)
  <use ./Figures/4c.png>
-Package pdftex.def Info: ./Figures/4c.png used on input line 143.
+Package pdftex.def Info: ./Figures/4c.png used on input line 138.
 (pdftex.def)             Requested size: 426.79134pt x 208.6131pt.
 
-Overfull \hbox (19.91725pt too wide) in paragraph at lines 143--144
-[] 
- []
-
-[5 <./Figures/pdb_kinases_growth.png>]
+[4 <./Figures/pdb_kinases_growth.png>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 173.
+(hyperref)                be the same. Added a new anchor on input line 168.
 
-[6 <./Figures/4c.png>] <./Figures/5b.png, id=155, 1209.51875pt x 640.3925pt>
+<./Figures/5b.png, id=143, 1209.51875pt x 640.3925pt> [5 <./Figures/4c.png>]
 File: ./Figures/5b.png Graphic file (type png)
 
 <use ./Figures/5b.png>
-Package pdftex.def Info: ./Figures/5b.png used on input line 191.
+Package pdftex.def Info: ./Figures/5b.png used on input line 186.
 (pdftex.def)             Requested size: 426.79134pt x 225.96802pt.
 
-Overfull \hbox (36.91725pt too wide) in paragraph at lines 191--192
+Overfull \hbox (8.4645pt too wide) in paragraph at lines 186--187
 [][] 
  []
 
-<./Figures/5c.png, id=156, 1209.51875pt x 640.3925pt>
+<./Figures/5c.png, id=151, 1209.51875pt x 640.3925pt>
 File: ./Figures/5c.png Graphic file (type png)
  <use ./Figures/5c.png>
-Package pdftex.def Info: ./Figures/5c.png used on input line 202.
+Package pdftex.def Info: ./Figures/5c.png used on input line 197.
 (pdftex.def)             Requested size: 426.79134pt x 225.96802pt.
 
-Overfull \hbox (36.91725pt too wide) in paragraph at lines 202--203
+Overfull \hbox (8.4645pt too wide) in paragraph at lines 197--198
 [][] 
  []
 
-[7 <./Figures/5b.png> <./Figures/5c.png>]
+[6 <./Figures/5b.png> <./Figures/5c.png>]
 <./Figures/5e.png, id=171, 702.625pt x 790.955pt>
 File: ./Figures/5e.png Graphic file (type png)
  <use ./Figures/5e.png>
-Package pdftex.def Info: ./Figures/5e.png used on input line 252.
+Package pdftex.def Info: ./Figures/5e.png used on input line 245.
 (pdftex.def)             Requested size: 483.69684pt x 544.51645pt.
 
-Overfull \hbox (93.82275pt too wide) in paragraph at lines 252--253
+Overfull \hbox (65.37pt too wide) in paragraph at lines 245--246
 [][] 
  []
 
-[8] <./Figures/6.pdf, id=185, 1027.84pt x 770.88pt>
+[7] <./Figures/6.pdf, id=181, 1027.84pt x 770.88pt>
 File: ./Figures/6.pdf Graphic file (type pdf)
  <use ./Figures/6.pdf>
-Package pdftex.def Info: ./Figures/6.pdf used on input line 259.
+Package pdftex.def Info: ./Figures/6.pdf used on input line 252.
 (pdftex.def)             Requested size: 483.69684pt x 362.7724pt.
 
-Overfull \hbox (93.82275pt too wide) in paragraph at lines 259--260
+Overfull \hbox (65.37pt too wide) in paragraph at lines 252--253
 [][] 
  []
 
-[9 <./Figures/5e.png>]
+[8 <./Figures/5e.png>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 264.
+(hyperref)                be the same. Added a new anchor on input line 257.
 
-<./Figures/7a-ramachandran.pdf, id=190, 517.13202pt x 651.23299pt>
+<./Figures/7a-ramachandran.pdf, id=187, 517.13202pt x 651.23299pt>
 File: ./Figures/7a-ramachandran.pdf Graphic file (type pdf)
 
 <use ./Figures/7a-ramachandran.pdf>
-Package pdftex.def Info: ./Figures/7a-ramachandran.pdf used on input line 273.
+Package pdftex.def Info: ./Figures/7a-ramachandran.pdf used on input line 269.
 (pdftex.def)             Requested size: 455.24408pt x 573.29547pt.
 
-Overfull \hbox (65.37pt too wide) in paragraph at lines 273--274
+Overfull \hbox (36.91724pt too wide) in paragraph at lines 269--270
 [][] 
  []
 
-[10 <./Figures/6.pdf>] <./Figures/7b.png, id=216, 638.385pt x 481.8pt>
+[9 <./Figures/6.pdf>] <./Figures/7b.png, id=214, 638.385pt x 481.8pt>
 File: ./Figures/7b.png Graphic file (type png)
 
 <use ./Figures/7b.png>
-Package pdftex.def Info: ./Figures/7b.png used on input line 277.
+Package pdftex.def Info: ./Figures/7b.png used on input line 273.
 (pdftex.def)             Requested size: 284.52756pt x 214.73482pt.
- [11 <./Figures/7a-ramachandran.pdf>]
-Overfull \hbox (40.13722pt too wide) in paragraph at lines 317--317
+ [10 <./Figures/7a-ramachandran.pdf>]
+Overfull \hbox (11.68446pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut2      ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLV
 NPDQPRLTIPISQIAPDL 60[] 
  []
 
 
-Overfull \hbox (40.13722pt too wide) in paragraph at lines 317--317
+Overfull \hbox (11.68446pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut3      ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLV
 NPDQPRLTIPISQIAPDL 60[] 
  []
 
 
-Overfull \hbox (40.13722pt too wide) in paragraph at lines 317--317
+Overfull \hbox (11.68446pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_wt        ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLV
 NPDQPRLTIPISQIAPDL 60[] 
  []
 
 
-Overfull \hbox (40.13722pt too wide) in paragraph at lines 317--317
+Overfull \hbox (11.68446pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut1      ICGEGETLLKKWALYSFNDGEEHQKILLDDLMKKAEEGDLLV
 NPDQPRLTIPISQIAPDL 60[] 
  []
 
 
-Overfull \hbox (23.16211pt too wide) in paragraph at lines 317--317
-[]                \T1/cmtt/m/n/10.95 ******************************************
-******************[] 
- []
-
-
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut2      ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGE
 EVAVKIFNKHTSLRLLRQ 120[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut3      ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGE
 EVAVKIFNKHTSLRLLRQ 120[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_wt        ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGE
 EVAVKIFNKHTSLRLLRQ 120[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut1      ILADLPRNIMLNNDELEFEQAPEFLLGDGSFGSVYRAAYEGE
 EVAVKIFNKHTSLRLLRQ 120[] 
  []
 
 
-Overfull \hbox (23.16211pt too wide) in paragraph at lines 317--317
-[]                \T1/cmtt/m/n/10.95 ******************************************
-******************[] 
- []
-
-
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut2      ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQ
 DKASLTRTLQHRIALHVA 180[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut3      ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQ
 DKASLTRTLQHRIALHVA 180[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_wt        ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQ
 DKASLTRTLQHRIALHVA 180[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut1      ELVVLCHLHHPSLISLLAAGIRPRMLVMELASKGSLDRLLQQ
 DKASLTRTLQHRIALHVA 180[] 
  []
 
 
-Overfull \hbox (23.16211pt too wide) in paragraph at lines 317--317
-[]                \T1/cmtt/m/n/10.95 ******************************************
-******************[] 
- []
-
-
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut2      DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAIIAKIADYSIA
 QYCCRMGIKTSEGTPGFR 240[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut3      DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAIIAKIADYGTA
 QYCCRMGIKTSEGTPGFR 240[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_wt        DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAIIAKIADYGIA
 QYCCRMGIKTSEGTPGFR 240[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut1      DGLRYLHSAMIIYRDLKPHNVLLFTLYPNAAITAKIADYGIA
 QYCCRMGIKTSEGTPGFR 240[] 
  []
 
 
-Overfull \hbox (23.16211pt too wide) in paragraph at lines 317--317
-[]                \T1/cmtt/m/n/10.95 ******************************** ******. *
-******************[] 
- []
-
-
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut2      APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPN
 EFDELEIQGKLPDPVKEY 300[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut3      APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPN
 EFDELEIQGKLPDPVKEY 300[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_wt        APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPN
 EFDELEIQGKLPDPVKEY 300[] 
  []
 
 
-Overfull \hbox (45.7956pt too wide) in paragraph at lines 317--317
+Overfull \hbox (17.34283pt too wide) in paragraph at lines 313--313
 []\T1/cmtt/m/n/10.95 lrrk2_mut1      APEVARGNVIYNQQADVYSFGLLLYDILTTGGRIVEGLKFPN
 EFDELEIQGKLPDPVKEY 300[] 
  []
 
-
-Overfull \hbox (23.16211pt too wide) in paragraph at lines 317--317
-[]                \T1/cmtt/m/n/10.95 ******************************************
-******************[] 
- []
-
-[12 <./Figures/7b.png>] (./report.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
+[11 <./Figures/7b.png>] (./report.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
  (./report.aux (./title.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 323.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 323.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 2F535F3B7E12E6DB8AC5852178F47C91;1097.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 327.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
  ) 
 Here is how much of TeX's memory you used:
- 9588 strings out of 493304
- 135330 string characters out of 6139871
- 215562 words of memory out of 5000000
- 12813 multiletter control sequences out of 15000+600000
+ 9589 strings out of 493304
+ 135346 string characters out of 6139871
+ 214596 words of memory out of 5000000
+ 12814 multiletter control sequences out of 15000+600000
  25238 words of font info for 71 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,8n,33p,461b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,33p,461b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1566,10 +1513,10 @@ frm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/sh
 are/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 tt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on report.pdf (14 pages, 2701787 bytes).
+Output written on report.pdf (13 pages, 2696837 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
+ 292 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
  24 named destinations out of 1000 (max. 500000)
  247 words of extra memory for PDF output out of 10000 (max. 10000000)
 
